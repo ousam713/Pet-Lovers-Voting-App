@@ -15,5 +15,5 @@ spec:
         app: worker
     spec:
       containers:
-      - image: kubernetes/pods/kube-worker-pod.yaml
+      - image: ousam713/voting-worker:v1
         name: worker
