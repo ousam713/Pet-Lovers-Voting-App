@@ -54,6 +54,7 @@ The application consists of 5 main components:
 # Running the Application with Minikube
 
 ## 1. Start Minikube
+In my case I run minikube on top of KVM
 
 ```bash
 minikube start --driver=kvm2
@@ -66,7 +67,7 @@ minikube start --driver=kvm2
 ### Create deployments and services
 
 ```bash
-kubectl create -f deployments/ -f services/
+kubectl create -f kubernetes/deployments/ -f kubernetes/services/
 ```
 
 ---
