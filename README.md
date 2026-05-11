@@ -81,6 +81,8 @@ minikube service vote --url
 
 ![create deployments and services](create.deployments.and.services.png)
 
+![get all](get_all.png)
+
 ---
 
 # Kubernetes Resources
